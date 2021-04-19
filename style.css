@@ -1,0 +1,93 @@
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: cornflowerblue;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  align-self: right;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 37px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.bodytable{
+
+  border-collapse: collapse;
+  
+  
+  
+}
+
+.subjectName {
+  background-color: #f8760cef;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(255, 211, 68);
+  text-align: center;
+  border-color: #f8760cef;
+  border-radius:35px;
+}
+.subject {
+  color: #f8760cef;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  background-color: rgb(255, 211, 68);
+  text-align: center;
+  border-color:rgb(255, 211, 68) ;
+  border-radius:35px;
+  border-collapse: collapse;
+}
+
+.relLinks{
+  color: #240cf863;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  background-color: rgb(0, 100, 250);
+  text-align: center;
+  border-color:rgb(255, 211, 68) ;
+  border-radius:35px;
+  border-collapse: collapse;
+}
+
+.subjectInfo {
+  background-color: #0cf8ec9f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #49f;
+  width:66%;
+  text-align: center;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
