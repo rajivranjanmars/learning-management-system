@@ -15,4 +15,4 @@ Open `index.html` in a browser or serve this directory with `python -m http.serv
 
 ## Author
 
-[rajivranjanmars](https://rajivranjana.in)
+[Rajiv Ranjan](https://rajivranjan.in)
